@@ -1,9 +1,5 @@
-# Tasks
+# Challenges
 
-1. Replace all instances of "cat" with "dog"
-2. Wrap all instances of "dog" and the item being sat on with underscores, e.g. `The _dog_ sat on the _mat_`
-
-# Keyboard shortcuts and techniques you'll need
-
-- `Ctrl + D` - Add Selection To Next Find Match
-- `Ctrl + F2` - Change All Occurrences
+1. Using multiple cursors, update each item of the array so it follows the format: `The CAT sat on the MAT, then fell asleep`
+   - The first item has been done for you
+   - **Tip:** Use `F1` > "transform" to find the uppercase transform

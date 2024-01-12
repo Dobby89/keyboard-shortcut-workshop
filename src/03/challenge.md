@@ -1,8 +1,8 @@
-# Tasks
+# Challenges
 
-1. Change the variable "firstName" to "forename"
-1. Change the variable "lastName" to "surname"
-
-# Keyboard shortcuts and techniques you'll need
-
-- `F2`
+1. Using multiple cursors, export a variable for each animal in the list
+   - The first variable has been done for you
+   - Each variable must have a suffix of `Food`, e.g. `const elephantFood = ...`
+   - `getAnimalFood()` expects the argument to be lowercase and singular:
+     - ✅ `getAnimalFood('elephant')`
+     - ❌ `getAnimalFood('Elephants')`

@@ -1,10 +1,6 @@
 export const people = [
   { name: "ANIKA PATEL", email: "anika.patel@gmail.com", age: 57 },
-  {
-    name: "ALEJANDRO FERNANDEZ",
-    email: "alejandro.fernandez@gmail.com",
-    age: 34,
-  },
+  { name: "ALEX SANCHEZ", email: "alex.sanchez@gmail.com", age: 34 },
   { name: "MEI CHEN", email: "mei.chen@gmail.com", age: 72 },
   { name: "AHMED KHAN", email: "ahmed.khan@gmail.com", age: 41 },
   { name: "ISABELLA SANTOS", email: "isabella.santos@gmail.com", age: 20 },
@@ -23,27 +19,4 @@ export const people = [
   { name: "AMIR KHAN", email: "amir.khan@gmail.com", age: 79 },
   { name: "LEILA ABBASI", email: "leila.abbasi@gmail.com", age: 40 },
   { name: "LUCA ROSSI", email: "luca.rossi@gmail.com", age: 21 },
-];
-
-export const emailsOnly = [
-  "anika.patel@gmail.com",
-  "alejandro.fernandez@gmail.com",
-  "mei.chen@gmail.com",
-  "ahmed.khan@gmail.com",
-  "isabella.santos@gmail.com",
-  "jamal.al-farsi@gmail.com",
-  "sofia.costa@gmail.com",
-  "rajesh.kapoor@gmail.com",
-  "aisha.nguyen@gmail.com",
-  "miguel.rodriguez@gmail.com",
-  "priya.sharma@gmail.com",
-  "kofi.mensah@gmail.com",
-  "emma.kim@gmail.com",
-  "juan.martinez@gmail.com",
-  "yuki.tanaka@gmail.com",
-  "ahmed.abdel-malik@gmail.com",
-  "maya.patel@gmail.com",
-  "amir.khan@gmail.com",
-  "leila.abbasi@gmail.com",
-  "luca.rossi@gmail.com",
 ];

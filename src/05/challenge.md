@@ -1,17 +1,5 @@
-# Tasks
+## Challenges
 
-1. Change each array item to an object, with a `name` and `email` property, e.g.
-
-- The email should be the in the format: `firstname.last-name@gmail.com`
-
-```javascript
-export const people = [
-  { name: "FIRSTNAME LASTNAME", email: "firstname.last-name@gmail.com" },
-  //...
-];
-```
-
-# Keyboard shortcuts and techniques you'll need
-
-- Scroll wheel click and drag mouse - Multiple cursors
-- `F1` > Search "lowercase"` - Transform to lowercase
+1. Using multiple cursors, add all the names to the `people` array. The names should be formatted as title case, e.g. `Ahmed Abdel-Malik`
+   - The first name has been done for you
+   - **Tip:** Use `F1` > "transform" to find the title case transform

@@ -1,8 +1,16 @@
-const firstName = "John";
-const lastName = "Smith";
+import { AnimalFood, getAnimalFood } from "./expected";
 
-function greet() {
-  return `Hello my name is ${firstName} ${lastName}`;
-}
+// Elephants
+export const elephantFood: AnimalFood = `Elephants like to eat ${getAnimalFood(
+  "elephant"
+)}`;
 
-greet();
+// Koalas
+// Orcas
+// Foxs
+// Turtles
+// Penguins
+// Dolphins
+// Cheetahs
+// Pandas
+// Anteaters

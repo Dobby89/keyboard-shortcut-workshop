@@ -1,9 +1,12 @@
-# Tasks
+# Challenges
 
-1. Make all the names uppercase
-2. Add all names to the `people` array
+1. Using multiple cursors, export a new `Person` instance variable for each name provided in the [challenge](./challenge). Joe has already been done for you
 
-# Keyboard shortcuts and techniques you'll need
+2. Without using multiple cursors, rename the properties of the `Person` interface as below without introducing any errors to the rest of the file
 
-- Scroll wheel click and drag mouse - Multiple cursors
-- `F1` > Search "uppercase"` - Transform to uppercase
+```typescript
+export interface Person {
+  firstName: string;
+  lastName: string;
+}
+```
