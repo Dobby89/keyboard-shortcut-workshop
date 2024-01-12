@@ -1,5 +1,5 @@
-import * as actual from "./exercise";
-import * as expected from "./expected";
+import * as actual from "../03/exercise";
+import * as expected from "../03/expected";
 
 test("03", () => {
   expect(actual).toHaveProperty("elephantFood", expected.elephantFood);

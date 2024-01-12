@@ -1,6 +1,6 @@
-import { CrazyCats } from "./expected";
+import { crazyCats as expectedCrazyCats } from "./expected";
 
-export const animals: CrazyCats[] = [
+export const crazyCats: typeof expectedCrazyCats = [
   "The CAT sat on the MAT, then fell asleep",
   "The cat ... rug ...",
   "The cat ... blanket ...",

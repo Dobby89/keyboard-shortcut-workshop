@@ -1,8 +1,5 @@
-import * as actual from "./exercise";
-import * as expected from "./expected";
-
-import { Person as PersonActual } from "./exercise";
-import { Person as PersonExpected } from "./expected";
+import * as actual from "../04/exercise";
+import * as expected from "../04/expected";
 
 test("04", () => {
   expect(actual).toHaveProperty("Joe");
@@ -20,7 +17,7 @@ test("04", () => {
   expect(actual.Dmitry).toEqual(expected.Dmitry);
 
   // Confirm Class works
-  expect(new PersonActual("Joe", "Bloggs")).toEqual(
-    new PersonExpected("Joe", "Bloggs")
+  expect(new actual.Person("Joe", "Bloggs")).toEqual(
+    new expected.Person("Joe", "Bloggs")
   );
 });
