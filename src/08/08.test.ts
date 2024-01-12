@@ -1,6 +1,6 @@
 import * as actual from "./exercise";
 import * as expected from "./expected";
 
-test("07", () => {
-  expect(actual.people).toEqual(expected.people);
+test("08", () => {
+  expect(actual.emails).toEqual(expected.emails);
 });

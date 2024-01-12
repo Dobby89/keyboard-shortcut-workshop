@@ -1,3 +1,5 @@
+import { emails as expectedEmails } from "./expected";
+
 export const people = [
   { name: "Anika Patel", email: "anika.patel@gmail.com", age: 57 },
   { name: "Alex Sanchez", email: "alex.sanchez@gmail.com", age: 34 },
@@ -19,4 +21,6 @@ export const people = [
   { name: "Amir Khan", email: "amir.khan@gmail.com", age: 79 },
   { name: "Leila Abbasi", email: "leila.abbasi@gmail.com", age: 40 },
   { name: "Luca Rossi", email: "luca.rossi@gmail.com", age: 21 },
-] as const;
+];
+
+export const emails: typeof expectedEmails = ["anika.patel@gmail.com"];

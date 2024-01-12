@@ -1,6 +1,6 @@
 import { people as expectedPeople } from "./expected";
 
-export const people: { name: string; email: string }[] = [
+export const people: typeof expectedPeople = [
   { name: "Anika Patel", email: "anika.patel@gmail.com" },
   "Alex Sanchez",
   "Mei Chen",
