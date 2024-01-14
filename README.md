@@ -17,6 +17,8 @@ The objective isn't to write code; instead, you should use [keyboard shortcuts](
 1. Run the tests for the exercise, e.g. `npm run test 01`
 1. Read the instructions and try to make the tests pass
 
+## Structure
+
 The exercises are located within separate directories inside [src](./src).
 
 Each exercise directory contains three files:
