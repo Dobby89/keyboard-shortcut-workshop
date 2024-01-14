@@ -21,9 +21,9 @@ The exercises are located within separate directories inside [src](./src).
 
 Each exercise directory contains three files:
 
-- **README.md** - Contains the tasks you need to complete
 - **exercise.ts** - The file you should work in
 - **expected.ts** - Provides expected types for each exercise. This will give you an idea of what the `exercise` file should look like when you've finished
+- **instructions.md** - Contains the tasks you need to complete
 
 ## Keyboard shortcuts
 
