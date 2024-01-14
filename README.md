@@ -1,61 +1,84 @@
-## Tips
+# Keyboard Shortcuts Workshop
 
-- Move Terminal panel to the right of the editor window
-- Use the gutter to find your changes
-- Set User Snippets to boilerplate code you use often
-- Toggle screencast mode to show clicks and keystrokes onscreen using F1 and search for "screencast"<br>![image](https://gist.github.com/assets/1322638/e58becfb-e233-493d-b8b5-34ab87d16132)
-- Search for symbols globally
-  - Open file search Ctrl + P
-  - Type `#` then search for symbols<br>![image](https://gist.githubusercontent.com/Dobby89/cbefc6bfc078f522556d7df89d7066e6/raw/cbfa13bb1c0567f8cd8a73c38a34d24a3089648a/vscode.searchForSymbolsGlobally.gif)
+A collection of exercises focused on using keyboard shortcuts in [VSCode](https://code.visualstudio.com/).
+
+## Installation
+
+1. Clone the repo
+1. Run `npm install`
+
+## Objectives
+
+The objective isn't to _code_, instead you should use [keyboard shortcuts](#keyboard-shortcuts) (and an occasional mouse click) to edit the code as efficently as possible within each exercise file, as specified by each `instructions.md`.
+
+## Usage
+
+1. Pick an exercise
+1. Run the tests for the exercise, e.g. `npm run test 01`
+1. Read the instructions and try to make the tests pass
+
+The exercises are located within separate directories inside [src](./src).
+
+Each exercise directory contains three files:
+
+- **README.md** - Contains the tasks you need to complete
+- **exercise.ts** - The file you should work in
+- **expected.ts** - Provides expected types for each exercise. This will give you an idea of what the `exercise` file should look like when you've finished
 
 ## Keyboard shortcuts
 
-| Description                                       | ID                                                   | Shortcut                                                 | Custom Override |
-| ------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- | --------------- |
-| Open Keyboard Shortcuts                           | `workbench.action.openGlobalKeybindings`             | Ctrl + K, Ctrl + S                                       | -               |
-| Open Settings                                     | `workbench.action.openSettings`                      | Ctrl + ,                                                 | -               |
-| Toggle Terminal                                   | `workbench.action.terminal.toggleTerminal`           | Ctrl + '                                                 | -               |
-| View: Toggle Primary Side Bar Visibility          | `workbench.action.toggleSidebarVisibility`           | Ctrl + B                                                 | -               |
-| Show Search                                       | `workbench.view.search`                              | Ctrl + Shift + F                                         | -               |
-| Show Explorer                                     | `workbench.view.explorer`                            | Ctrl + Shift + E                                         | -               |
-| Show Extensions                                   | `workbench.view.extensions`                          | Ctrl + Shift + X                                         | -               |
-| Show All Commands                                 | `workbench.action.showCommands`                      | F1                                                       | -               |
-| File Search                                       | `workbench.action.quickOpenNavigateNextInFilePicker` | Ctrl + P                                                 | -               |
-| Go To Symbol In Editor                            | `workbench.action.gotoSymbol`                        | Ctrl + Shift + O                                         | -               |
-| Search Symbol (Globally)                          |                                                      | Ctrl + P<br>Then use # to search for symbols globally    | -               |
-| Move Line Up                                      | `editor.action.moveLinesUpAction`                    | Alt + UpArrow                                            | -               |
-| Move Line Down                                    | `editor.action.moveLinesDownAction`                  | Alt + DownArrow                                          | -               |
-| Duplicate Current Line Up                         | `editor.action.copyLinesUpAction`                    | Shift + Alt + UpArrow                                    | -               |
-| Duplicate Current Line Down                       | `editor.action.copyLinesDownAction`                  | Shift + Alt + DownArrow                                  | -               |
-| Jump To Start Of Line                             | `cursorHome`                                         | Home                                                     | -               |
-| Jump To End Of Line                               | `cursorEnd`                                          | End                                                      | -               |
-| Jump To Start Of File                             | `cursorTop`                                          | Ctrl + Home                                              | -               |
-| Jump To End Of File                               | `cursorBottom`                                       | Ctrl + End                                               | -               |
-| Select Everything From Cursor Until Start Of Line | `cursorHomeSelect`                                   | Shift + Home                                             | -               |
-| Select Everything From Cursor Until End Of Line   | `cursorEndSelect`                                    | Shift + End                                              | -               |
-| Select Everything From Cursor Until Start Of File | `cursorTopSelect`                                    | Ctrl + Shift + Home                                      | -               |
-| Select Everything From Cursor Until End Of File   | `cursorBottomSelect`                                 | Ctrl + Shift + End                                       | -               |
-| Add Selection To Next Find Match                  | `editor.action.addSelectionToNextFindMatch`          | Ctrl + D                                                 | -               |
-| Move Last Selection To Previous Find Match        | `editor.action.moveSelectionToPreviousFindMatch`     | Ctrl + Shift + D                                         | Yes             |
-| Toggle Case Sensitive Search                      |                                                      | Alt + C                                                  | -               |
-| Grow Selection Of Everything Inside A Bracket     | `editor.action.smartSelect.expand`                   | Shift + Alt + RightArrow                                 | -               |
-| Shrink Selection Of Everything Inside A Bracket   | `editor.action.smartSelect.shrink`                   | Shift + Alt + LeftArrow                                  | -               |
-| Change All Occurrences                            | `editor.action.changeAll`                            | Ctrl + F2                                                | -               |
-| Rename A Variable/Symbol                          | `editor.action.rename`                               | Select symbol > F2                                       | -               |
-| Create Multiple Cursors                           |                                                      | Alt + Click anywhere                                     | -               |
-| Create Multiple Cursors                           |                                                      | Click the mouse scroll wheel and drag the mouse anywhere | -               |
-| Add Cursor Above                                  | `editor.action.insertCursorAbove`                    | Ctrl + Alt + UpArrow                                     | -               |
-| Add Cursor Below                                  | `editor.action.insertCursorBelow`                    | Ctrl + Alt + DownArrow                                   | -               |
-| Add Cursor Above (Grow/Shrink)                    | `cursorColumnSelectUp`                               | Ctrl + Shift + Alt + UpArrow                             | -               |
-| Add Cursor Below (Grow/Shrink)                    | `cursorColumnSelectDown`                             | Ctrl + Shift + Alt + DownArrow                           | -               |
-| Go To Definition                                  | `editor.action.revealDefinition`                     | F12                                                      | -               |
-| Go To Line/Column                                 | `workbench.action.gotoLine`                          | Ctrl + G                                                 | -               |
-| Find All References                               | `references-view.findReferences`                     | Shift + Alt + F12                                        | -               |
-| Show Quick Fix Suggestions                        | `problems.action.showQuickFixes`                     | Ctrl + .                                                 | -               |
-| Transform To Upper Case                           | `editor.action.transformToUppercase`                 | Ctrl + Alt + U                                           | Yes             |
-| Transform To Lower Case                           | `editor.action.transformToLowercase`                 | Ctrl + Alt + L                                           | Yes             |
-| Transform To Camel Case                           | `editor.action.transformToCamelcase`                 | Ctrl + Alt + C                                           | Yes             |
-| Transform To Title Case                           | `editor.action.transformToTitlecase`                 | Ctrl + Alt + T                                           | Yes             |
-| Transform To Snake Case                           | `editor.action.transformToSnakecase`                 | Ctrl + Alt + S                                           | Yes             |
-| Transform To Kebab Case                           | `editor.action.transformToKebabcase`                 | Ctrl + Alt + K                                           | Yes             |
-| Change Document Langauge Mode                     | `workbench.action.editor.changeLanguageMode`         | Ctrl + K, M                                              | -               |
+The offical [VSCode Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings) are far more in-depth. However, these are my most commonly used keyboard shortcuts.
+
+Not all shortcuts are assigned a key binding by default, so I have indicated whether the shortcut is my custom override in the end column.
+
+You can always search for these by using `F1`
+
+| Description                                       | ID                                                   | Shortcut                                                                   | Custom Override |
+| ------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------------- | --------------- |
+| Show All Commands                                 | `workbench.action.showCommands`                      | <kbd>F1</kbd>                                                              | -               |
+| File Search                                       | `workbench.action.quickOpenNavigateNextInFilePicker` | <kbd>Ctrl</kbd> + <kbd>P</kbd>                                             | -               |
+| Go To Symbol                                      | `workbench.action.gotoSymbol`                        | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>                          | -               |
+| Go To Symbol (Globally)                           |                                                      | <kbd>Ctrl</kbd> + <kbd>P</kbd>, <kbd>#</kbd>                               | -               |
+| Open Keyboard Shortcuts                           | `workbench.action.openGlobalKeybindings`             | <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>S</kbd>             | -               |
+| Open Settings                                     | `workbench.action.openSettings`                      | <kbd>Ctrl</kbd> + <kbd>,</kbd>                                             | -               |
+| Toggle Terminal                                   | `workbench.action.terminal.toggleTerminal`           | <kbd>Ctrl</kbd> + <kbd>'</kbd>                                             | -               |
+| View: Toggle Primary Side Bar Visibility          | `workbench.action.toggleSidebarVisibility`           | <kbd>Ctrl</kbd> + <kbd>B</kbd>                                             | -               |
+| Show Search                                       | `workbench.view.search`                              | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>                          | -               |
+| Show Explorer                                     | `workbench.view.explorer`                            | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd>                          | -               |
+| Show Extensions                                   | `workbench.view.extensions`                          | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>                          | -               |
+| Move Line Up                                      | `editor.action.moveLinesUpAction`                    | <kbd>Alt</kbd> + <kbd>UpArrow</kbd>                                        | -               |
+| Move Line Down                                    | `editor.action.moveLinesDownAction`                  | <kbd>Alt</kbd> + <kbd>DownArrow</kbd>                                      | -               |
+| Duplicate Current Line Up                         | `editor.action.copyLinesUpAction`                    | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>UpArrow</kbd>                     | -               |
+| Duplicate Current Line Down                       | `editor.action.copyLinesDownAction`                  | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>DownArrow</kbd>                   | -               |
+| Jump To Start Of Line                             | `cursorHome`                                         | <kbd>Home</kbd>                                                            | -               |
+| Jump To End Of Line                               | `cursorEnd`                                          | <kbd>End</kbd>                                                             | -               |
+| Jump To Start Of File                             | `cursorTop`                                          | <kbd>Ctrl</kbd> + <kbd>Home</kbd>                                          | -               |
+| Jump To End Of File                               | `cursorBottom`                                       | <kbd>Ctrl</kbd> + <kbd>End</kbd>                                           | -               |
+| Select Everything From Cursor Until Start Of Line | `cursorHomeSelect`                                   | <kbd>Shift</kbd> + <kbd>Home</kbd>                                         | -               |
+| Select Everything From Cursor Until End Of Line   | `cursorEndSelect`                                    | <kbd>Shift</kbd> + <kbd>End</kbd>                                          | -               |
+| Select Everything From Cursor Until Start Of File | `cursorTopSelect`                                    | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Home</kbd>                       | -               |
+| Select Everything From Cursor Until End Of File   | `cursorBottomSelect`                                 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>End</kbd>                        | -               |
+| Add Selection To Next Find Match                  | `editor.action.addSelectionToNextFindMatch`          | <kbd>Ctrl</kbd> + <kbd>D</kbd>                                             | -               |
+| Move Last Selection To Previous Find Match        | `editor.action.moveSelectionToPreviousFindMatch`     | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>                          | Yes             |
+| Toggle Case Sensitive Search                      |                                                      | <kbd>Alt</kbd> + <kbd>C</kbd>                                              | -               |
+| Grow Selection Of Everything Inside A Bracket     | `editor.action.smartSelect.expand`                   | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>RightArrow</kbd>                  | -               |
+| Shrink Selection Of Everything Inside A Bracket   | `editor.action.smartSelect.shrink`                   | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>LeftArrow</kbd>                   | -               |
+| Change All Occurrences                            | `editor.action.changeAll`                            | <kbd>Ctrl</kbd> + <kbd>F2</kbd>                                            | -               |
+| Rename A Variable/Symbol                          | `editor.action.rename`                               | Select symbol > <kbd>F2</kbd>                                              | -               |
+| Create Multiple Cursors                           |                                                      | <kbd>Alt</kbd> + Click anywhere                                            | -               |
+| Create Multiple Cursors                           |                                                      | Click the mouse scroll wheel and drag the mouse anywhere                   | -               |
+| Add Cursor Above                                  | `editor.action.insertCursorAbove`                    | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>UpArrow</kbd>                      | -               |
+| Add Cursor Below                                  | `editor.action.insertCursorBelow`                    | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>DownArrow</kbd>                    | -               |
+| Add Cursor Above (Grow/Shrink)                    | `cursorColumnSelectUp`                               | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>UpArrow</kbd>   | -               |
+| Add Cursor Below (Grow/Shrink)                    | `cursorColumnSelectDown`                             | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>DownArrow</kbd> | -               |
+| Go To Definition                                  | `editor.action.revealDefinition`                     | <kbd>F12</kbd>                                                             | -               |
+| Go To Line/Column                                 | `workbench.action.gotoLine`                          | <kbd>Ctrl</kbd> + <kbd>G</kbd>                                             | -               |
+| Find All References                               | `references-view.findReferences`                     | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>F12</kbd>                         | -               |
+| Show Quick Fix Suggestions                        | `problems.action.showQuickFixes`                     | <kbd>Ctrl</kbd> + <kbd>.</kbd>                                             | -               |
+| Transform To Upper Case                           | `editor.action.transformToUppercase`                 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>                            | Yes             |
+| Transform To Lower Case                           | `editor.action.transformToLowercase`                 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>                            | Yes             |
+| Transform To Camel Case                           | `editor.action.transformToCamelcase`                 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd>                            | Yes             |
+| Transform To Title Case                           | `editor.action.transformToTitlecase`                 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>                            | Yes             |
+| Transform To Snake Case                           | `editor.action.transformToSnakecase`                 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>                            | Yes             |
+| Transform To Kebab Case                           | `editor.action.transformToKebabcase`                 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>K</kbd>                            | Yes             |
+| Change Document Langauge Mode                     | `workbench.action.editor.changeLanguageMode`         | <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>M</kbd>                               | -               |
