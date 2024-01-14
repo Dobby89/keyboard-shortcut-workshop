@@ -9,7 +9,7 @@ A collection of exercises focused on using keyboard shortcuts in [VSCode](https:
 
 ## Objectives
 
-The objective isn't to _code_, instead you should use [keyboard shortcuts](#keyboard-shortcuts) (and an occasional mouse click) to edit the code as efficently as possible within each exercise file, as specified by each `instructions.md`.
+The objective isn't to write code; instead, you should use [keyboard shortcuts](#keyboard-shortcuts) (and an occasional mouse click) to edit the code as efficiently as possible within each exercise file, as specified by each `instructions.md`.
 
 ## Usage
 
