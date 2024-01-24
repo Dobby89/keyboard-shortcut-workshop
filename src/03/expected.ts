@@ -10,7 +10,6 @@ export const animalFoodMap = {
   elephant: "Acacia leaves and grasses",
   koala: "Eucalyptus leaves",
   orca: "Salmon",
-  fox: "Small mammals and berries",
   turtle: "Sea grass and jellyfish",
   penguin: "Fish and squid",
   dolphin: "Fish",
@@ -34,7 +33,6 @@ export const koalaFood: AnimalFood = `Koalas like to eat ${getAnimalFood(
 export const orcaFood: AnimalFood = `Orcas like to eat ${getAnimalFood(
   "orca"
 )}`;
-export const foxFood: AnimalFood = `Foxs like to eat ${getAnimalFood("fox")}`;
 export const turtleFood: AnimalFood = `Turtles like to eat ${getAnimalFood(
   "turtle"
 )}`;

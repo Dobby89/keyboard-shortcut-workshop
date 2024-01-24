@@ -7,7 +7,6 @@ export const elephantFood: AnimalFood = `Elephants like to eat ${getAnimalFood(
 
 // Koalas
 // Orcas
-// Foxs
 // Turtles
 // Penguins
 // Dolphins
